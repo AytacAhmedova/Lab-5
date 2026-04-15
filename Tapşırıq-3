@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.box {
+  width: 300px;
+  margin: 30px;
+  border: 10px solid green;
+  padding: 20px;
+  background: #f5f5f5;
+}
+</style>
+</head>
+
+<body>
+
+<div class="box">
+  Content
+</div>
+
+</body>
+</html>
