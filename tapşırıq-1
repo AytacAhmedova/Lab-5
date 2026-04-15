@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.container {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  background: #eee;
+}
+
+.box {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+}
+
+.green {
+  background: green;
+  top: 20px;
+  left: 20px;
+}
+
+.blue {
+  background: blue;
+  top: 20px;
+  left: 100px;
+}
+
+.yellow {
+  background: yellow;
+  top: 80px;
+  left: 60px;
+}
+
+.red {
+  background: red;
+  top: 80px;
+  left: 140px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+  <div class="box green"></div>
+  <div class="box blue"></div>
+  <div class="box yellow"></div>
+  <div class="box red"></div>
+</div>
+
+</body>
+</html>
